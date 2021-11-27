@@ -1,0 +1,31 @@
+.search-component {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#search-label, #search {
+    text-align: center;
+    width: 10vw;
+}
+
+#search-label {
+    display: none;
+}
+
+#search {
+    border: none;
+    border-radius: 5px;
+    background: linear-gradient(to bottom right, #220AA6, #8B5FFD); 
+    height: 10vh;
+    width: 84vw;
+    color: #fff;
+    font-size: x-large;
+}
+
+
+#search::placeholder {
+    color: #fff;
+    font-size: x-large;
+}

@@ -1,0 +1,8 @@
+@use 'stylesheets/fonts';
+@use 'stylesheets/layout';
+@use 'stylesheets/search';
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+/*# sourceMappingURL=main.css.map */

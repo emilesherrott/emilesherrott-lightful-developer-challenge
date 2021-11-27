@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@200,500&family=Roboto:wght@100&display=swap');
+
+$primary-font: Roboto, sans-serif;
+
+
+.charity-tile-link {
+    text-decoration: none;
+}
+
+.charity-tile-header {
+    font-family: $primary-font;
+    color: #444;
+}
+
