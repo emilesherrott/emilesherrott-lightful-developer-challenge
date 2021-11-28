@@ -26,7 +26,7 @@ const Search = ({ charityData, setCharities }) => {
         <section>
             <div className="search-component">
                 <label for="search" id="search-label">Search:</label>
-                <input type="text" id="search" placeholder="Search" onChange={handleTextInput} />
+                <input type="text" id="search" placeholder="Search" autocomplete="off" onChange={handleTextInput} />
             </div>
         </section>
     )

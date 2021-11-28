@@ -1,0 +1,39 @@
+.button {
+    padding: 10px;
+    border-radius: 10px;
+    background: #12BBAC;
+    transition: background 1s;
+    color: #FFF;
+}
+
+.button:hover {
+    cursor: grab;
+    background: #016657;
+}
+
+.button:active {
+    cursor: grabbing;
+}
+
+.income-spending-button {
+    margin-right: 10px;
+}
+
+.contact-button {
+    margin-left: 10px;
+}
+
+.grant-button {
+    padding: 20px 40px 20px 40px;
+    background: linear-gradient(to bottom right, #FB9486, #EA6153);
+    border-radius: 10px;
+    color: #FFF;
+}
+
+.grant-button:hover {
+    cursor: grab;
+}
+
+.grab-button:active {
+    cursor: grabbing;
+}

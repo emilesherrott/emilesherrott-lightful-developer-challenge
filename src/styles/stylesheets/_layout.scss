@@ -9,7 +9,7 @@
     margin: 20px;
     padding: 10px;
     border-radius: 10px;
-    background-color: #eee;
+    background-color: #EEE;
     text-align: center;
 }
 
@@ -29,15 +29,11 @@
 
 
 
-
-
-
-.charity-show {
+.charity-show, .loading {
     max-width: 84vw;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
-    
 }
 
 .charity-show-main {
@@ -50,7 +46,13 @@
     max-width: 30vw;
     background-color: #eee;
     border-radius: 10px;
-    padding: 20px;
+    padding: 0 20px 20px 20px;
+    margin-bottom: 19px;
+}
+
+.charity-show-info {
+    max-width: 40vw;
+    text-align: right;
 }
 
 .cause-ul {
@@ -74,4 +76,57 @@
 
 .info-button {
     margin: 0 10px;
+}
+
+
+
+
+
+
+
+.grant-button-container {
+    display: flex;
+    justify-content: center;
+}
+
+.grant-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background: #EEE;
+    border-radius: 10px;
+}
+
+.grant-tile {
+    margin: 10px;
+    margin-top: 30px;
+    width: 24vw;
+    border-top: 1px solid #1ABFA3;
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+    .charity-show-main {
+        flex-direction: column;
+    }
+
+
+    .charity-show-title {
+        max-width: 84vw;
+    }
+
+    .charity-show-info {
+        max-width: 84vw;
+    }
+
+    .grant-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .grant-tile {
+        width: 54vw;
+    }
 }

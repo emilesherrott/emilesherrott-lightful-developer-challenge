@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import axios from 'axios'
 
+import Header from './components/Header'
 import Search from './components/Search'
 import CharityShow from './pages/CharityShow'
 import CharityIndex from './pages/CharityIndex'
@@ -31,11 +32,12 @@ const App = () => {
             }
         }
         getData()
-    }, [])
+    }, [charityData])
 
 
     return (
         <Router>
+            <Header />
             <Search charityData={charityData} setCharities={setCharities}/>
             <Switch>
                 <Route path='/:id' component={CharityShow} />

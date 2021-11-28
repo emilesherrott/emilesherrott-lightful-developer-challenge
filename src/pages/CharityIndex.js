@@ -5,7 +5,7 @@ import CharityTile from '../components/CharityTile'
 
 const CharityIndex = ({ charities }) => {
 
-    charities.sort((a, b) => a.names[0].value.localeCompare(b.names[0].value))
+    charities.sort((a, b) => a.finances[0].income - b.finances[0].income)
 
     return (
         <section className=''>
