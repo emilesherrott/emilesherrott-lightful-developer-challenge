@@ -21,6 +21,14 @@ My API has been included within the source code - however in this instance there
 
 ## Loading the application locally
 
+Clone the repo by running the following code from your machines Command Line:
+
+### `git clone <url>`
+
+```
+git clone https://github.com/emilesherrott/emilesherrott-lightful-developer-challenge.git
+```
+
 In the project directory, you can run:
 
 ### `yarn` or `yarn install`
