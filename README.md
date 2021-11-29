@@ -1,3 +1,6 @@
+#Front-End Developer Challenge<a name="top_of_page"></a>
+
+
 [# Front-End Developer Challenge](#top_of_page)
 
 This project was created for Lighful with the free GraphQL API at [https://charitybase.uk/](https://charitybase.uk/) as part of a technical test.
@@ -31,3 +34,5 @@ You will also see any lint errors in the console.
 
 
 Go to top<a name="top_of_page"></a>
+
+[Go to top](#top_of_page)
