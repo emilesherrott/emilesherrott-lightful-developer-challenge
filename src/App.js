@@ -39,9 +39,10 @@ const App = () => {
     
     if (!charities.length) {
         renderCount +=1
-        setTimeout(() => {setRender(renderCount)}, 500) 
+        setTimeout(() => {setRender(renderCount)}, 1000) 
     }
 
+    console.log(renderCount)
 
     return (
         <Router>
