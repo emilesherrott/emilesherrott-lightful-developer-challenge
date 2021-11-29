@@ -2,6 +2,7 @@
 
 
 This project was created for Lighful with the free GraphQL API at [charitybase.uk](https://charitybase.uk/) as part of a technical test.
+My API has been included within the source code - however in this instance there's no risk attatched. In a real world example I'd hide my API key server side for security. 
 
 ## Task Objectives
 - [x] Order results by income (least income furst).
@@ -36,10 +37,22 @@ You will also see any lint errors in the console.
 
 <details>
   <summary>How this application works</summary>
-  <p>On load you should be presented with requested data, mapped through a series of tiles displaying sorted charity data.</p>
-  <p>By clicking on any of the tiles you'll be re-routed to a 'show' page giving additional information on each charity.</p>
-  <p>Buttons shown in green and red will render components conditionally displaying extra information about income, spending, grants and contacts</p>
-  <p>At the top of the page you have a search bar to find available charities from any location within the application</p>
+  <p></p>
+  <ul>
+    <li>On load you should be presented with requested data, mapped through a series of tiles displaying sorted charity data.</li>
+    <li>By clicking on any of the tiles you'll be re-routed to a 'show' page giving additional information on each charity.</li>
+    <li>Buttons shown in green and red will render components conditionally displaying extra information about income, spending, grants and contacts.</li>
+    <li>At the top of the page you have a search bar to find available charities from any location within the application.</li>
+  </ul>
+</details>
+
+<details>
+  <summary>Favourite aspects of code</summary>
+  <p></p>
+  <ul>
+    <li>Learning the syntax for accessing the GraphQL API.</li>
+    <li>Use of ternanry operators throughout code to conditionally render application features, i.e. grants button.</li>
+    <li>Use of useParams to make GET request for specific charity data.</li>
 </details>
 
 
