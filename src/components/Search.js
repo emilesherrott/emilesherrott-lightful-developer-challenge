@@ -22,6 +22,8 @@ const Search = ({ charityData, setCharities }) => {
     }
 
 
+
+
     return (
         <section>
             <div className="search-component">

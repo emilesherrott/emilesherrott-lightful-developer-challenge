@@ -14,7 +14,9 @@ import { apiEndPoint, apiQuery, apiKey } from './helpers/api'
 
 const App = () => {
     const [charityData, setCharityData] = useState([])
-    const [charities, setCharities] = useState()
+    const [charities, setCharities] = useState([])
+    const [render, setRender] = useState()
+    let renderCount = 0
 
     useEffect(() => {
         const getData = async () => {
@@ -32,7 +34,13 @@ const App = () => {
             }
         }
         getData()
-    }, [charityData])
+    }, [render])
+
+    
+    if (!charities.length) {
+        renderCount +=1
+        setTimeout(() => {setRender(renderCount)}, 500) 
+    }
 
 
     return (
